@@ -63,7 +63,8 @@ module.exports = {
           {
             loader: 'sass-loader',
             options: {
-              sourceMap: true //ソースマップを有効
+              sourceMap: true, //ソースマップを有効
+              outputStyle: 'compressed', // expanded いつもの, compact 1行ずつ出力, compressed　1行で出力
             }
           }
         ]
